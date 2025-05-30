@@ -19,7 +19,7 @@ A web-based multilingual translation application built with the **M2M100 model**
 
 ## 📸 Screenshots
 
-![Input Text](screenshots/input.png)
+![Input Text](Screenshot 2025-04-07 180337.png)
 ![Output Translation](screenshots/output.png)
 
 ## 🔧 Setup Instructions
