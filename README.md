@@ -20,7 +20,7 @@ A web-based multilingual translation application built with the **M2M100 model**
 ## 📸 Screenshots
 
 ![input translation text](https://github.com/pradumnakadam07/Laguage-Translator-/blob/1ec4d856cb5aaf0ebea51a335ba5e4c11a14d17e/Screenshot%202025-04-07%20180337.png)
-![input translation text](https://github.com/pradumnakadam07/Laguage-Translator-/blob/1ec4d856cb5aaf0ebea51a335ba5e4c11a14d17e/Screenshot%202025-04-07%20180337.png)
+
 
 ## 🔧 Setup Instructions
 
