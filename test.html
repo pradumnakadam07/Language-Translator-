@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Translator</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+        body {
+            background: url('image3.jpg') no-repeat center center fixed;
+            background-size: 100% 100% !important;
+            background-color: black;
+            font-family: 'Poppins', sans-serif;
+            
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: white;
+        }
+        .container {
+            background: #1a1a1a;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            width: 600px;
+            text-align: center;
+        }
+        h2 {
+            color: #4CAF50;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+        .input-area, .output-area {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        textarea {
+            width: 90%;
+            height: 100px;
+            padding: 12px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            resize: none;
+            outline: none;
+            background: #333;
+            color: white;
+        }
+        select {
+            margin-top: 10px;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 8px;
+            background: #333;
+            color: white;
+            outline: none;
+            width: 95%;
+        }
+        button {
+            width: 95%;
+            margin-top: 12px;
+            padding: 12px;
+            font-size: 16px;
+            border-radius: 8px;
+            border: none;
+            background: #4CAF50;
+            color: white;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        button:hover {
+            background: #3a8e41;
+        }
+        button:active {
+            transform: scale(0.98);
+        }
+        #outputText {
+            width: 90%;
+            padding: 10px;
+            border-radius: 8px;
+            background: #333;
+            border: none;
+            color: white;
+            min-height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Language Translator</h2>
+        <div class="input-area">
+            <textarea id="inputText" placeholder="Enter text..."></textarea>
+            <select id="targetLang">
+                <option value="af">Afrikaans</option>
+                <option value="zh">Chinese</option>
+                <option value="zu">Zulu</option>
+            </select>
+        </div>
+        <button onclick="translateText()">Translate</button>
+        <div class="output-area">
+            <h3>Translated Text:</h3>
+            <p id="outputText"></p>
+        </div>
+    </div>
+</body>
+</html>
